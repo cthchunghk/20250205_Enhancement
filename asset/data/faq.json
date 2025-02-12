@@ -1,0 +1,12 @@
+{
+  "questions": [
+    "What are your operating hours?",
+    "How can I reset my password?",
+    "Where is your company located?"
+  ],
+  "answers": [
+    "Our operating hours are from 9 AM to 5 PM, Monday to Friday.",
+    "You can reset your password by clicking on the 'Forgot Password' link on the login page.",
+    "Our company is located at 123 Main Street, Anytown, USA."
+  ]
+}

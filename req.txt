@@ -1,0 +1,21 @@
+# Environment Setup
+python-dotenv
+
+# YouTube downloader
+yt-dlp
+
+# Web scarping
+bs4 
+requests
+selenium
+
+# Vector Computing
+numpy
+
+# OpenAI API related
+OpenAI
+
+# Web Service related
+Flask
+Flask_RESTful
+Flask-Cors
