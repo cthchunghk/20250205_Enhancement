@@ -9,7 +9,7 @@ Please install ffmpeg for downloading youtube track
         >.\venv\Scripts\activate.ps1     
 
         OR
-        >.\vevn\Scripts\activate.bat
+        >.\venv\Scripts\activate.bat
     * Mac / Linux:
         >. ./venv_flask/bin/activate
 
