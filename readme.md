@@ -2,8 +2,15 @@ Please install ffmpeg for downloading youtube track
 Please use Python > 3.12        
 
 ## How To Run
-- Create Virtual Environment First:
-    >python -m venv ${PROJECT_ROOT}
+- Create Virtual Environment First:        
+    Windows:
+    ```
+    python -m venv .\venv
+    ```
+    Mac / Linux:
+    ```
+    python -m venv ./venv
+    ```
 
 - Activate Virtual Environment
     * Windows:
