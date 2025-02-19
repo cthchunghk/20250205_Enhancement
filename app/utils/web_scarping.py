@@ -124,7 +124,7 @@ def scrapeContent(url):
     else:
         return None
 
-def recursiveScrape(url, base_url, depth=0, max_depth=1):
+def recursiveScrape(url, base_url, depth=0, max_depth=3):
     if depth > max_depth:
         return
 
