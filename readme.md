@@ -1,21 +1,41 @@
 Please install ffmpeg for downloading youtube track     
+Please use Python > 3.12        
 
 ## How To Run
-- Create Virtual Environment First:
-    >python -m venv ${PROJECT_ROOT}
+- Create Virtual Environment First:        
+    Windows:
+    ```
+    python -m venv .\venv
+    ```
+    Mac / Linux:
+    ```
+    python -m venv ./venv
+    ```
 
 - Activate Virtual Environment
     * Windows:
-        >.\venv\Scripts\activate.ps1     
+      ```
+      .\venv\Scripts\activate.ps1
+      ```
 
+        ** If you use Powershell, you may need to run the following command.
+      ```
+      Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+      ```
         OR
-        >.\venv\Scripts\activate.bat
+        ```
+        .\venv\Scripts\activate.bat
+        ```
     * Mac / Linux:
-        >. ./venv_flask/bin/activate
+        ```
+        . ./venv_flask/bin/activate
+        ```
 
 - Install dependencies      
     After Activated the VEnv, run:
-    >pip install -r .\req.txt
+    ```
+    pip install -r .\req.txt
+    ```
 
 - Ready OpenAI API key      
     Create a .env file in the project root, insert the following key:
